@@ -9,16 +9,16 @@ the steps that are executed are explained [here](http://lumue.github.io/2015/11/
 
 to build and install use:
 
-   ./build.sh && sudo ./install.sh
+    ./build.sh && sudo ./install.sh
 
 
 ## starting and stopping the service
 
- * start service
+start service
  
     sudo systemctl start g13d-service
     
- * start service
+start service
   
-     sudo systemctl stop g13d-service
+    sudo systemctl stop g13d-service
      
