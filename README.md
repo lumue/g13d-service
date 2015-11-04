@@ -12,13 +12,25 @@ to build and install use:
     ./build.sh && sudo ./install.sh
 
 
+## configure
+
+to change the key bindings that are loaded by default, edit ``/usr/lib/g13d/etc/default.bind``
+
+    nano /usr/lib/g13d/etc/default.bind
+
 ## starting and stopping the service
 
 start service
  
     sudo systemctl start g13d-service
     
-start service
+stop service
   
     sudo systemctl stop g13d-service
      
+## removing
+
+to remove everything from your system, execute
+
+    ./uninstall.sh
+    
